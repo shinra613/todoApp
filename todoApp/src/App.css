@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@350&display=swap');
 
 .mainbody{
-  width: 30%;
+  width: 40%;
   margin: auto;
   height: 100vh;
   display: flex;
@@ -48,7 +48,7 @@
 
 .addField{
   border-radius: 8px;
-  width: 85%;
+  width: 80%;
   border: 1px solid black;
   padding: 1em 1.2em;
   outline: none;
@@ -69,4 +69,23 @@
   height: 70%;
   padding: 20px 0px;
   text-align: left;
+}
+.Delete{
+  float: right;
+  background-color: red;
+}
+
+
+.taskContent{
+  display: flex;
+  align-items: center;
+}
+.addedTask{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+
+.deleteIcon{
+  width: 50%;
 }
